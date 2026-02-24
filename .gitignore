@@ -1,0 +1,35 @@
+# ===== C++ build files =====
+build/
+cmake-build-*/
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.a
+*.o
+*.obj
+
+# ===== Visual Studio =====
+.vs/
+Debug/
+Release/
+x64/
+x86/
+
+# ===== VS Code =====
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/c_cpp_properties.json
+
+# ===== CMake =====
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
